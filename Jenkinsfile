@@ -9,7 +9,7 @@ pipeline {
   }
   post {
     always {
-      echo "This will run"
+      echo "This will run always"
     }
     success {
       echo "This will run if successfull"
